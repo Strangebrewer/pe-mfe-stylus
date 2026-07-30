@@ -14,10 +14,10 @@
       "axios": ["./node_modules/axios"],
       "react": ["./node_modules/react"],
       "react-dom": ["./node_modules/react-dom"]
-    },
-    "ts-node": {
-      "transpileOnly": true
     }
+  },
+  "ts-node": {
+    "transpileOnly": true
   },
   "include": ["src/**/*", "webpack.config.ts"],
   "exclude": ["node_modules"]
