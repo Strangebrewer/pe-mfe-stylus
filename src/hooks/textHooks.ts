@@ -1,11 +1,11 @@
 import { useQuery } from '@tanstack/react-query';
-import thingApi from '../api/thingApi';
+import textApi from '../api/textApi';
 
 export const useGetThings = () => {
   return useQuery({
-    queryKey: ['get-car-data'],
+    queryKey: ['get-texts'],
     queryFn: async () => {
-      const { data = [] } = await thingApi.get();
+      const { data = [] } = await textApi.get();
       return data;
     },
   });
