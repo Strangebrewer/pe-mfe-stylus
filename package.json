@@ -41,6 +41,10 @@
   "dependencies": {
     "@bka-stuff/pe-mfe-utils": "github:Strangebrewer/pe-mfe-utils#main",
     "@tanstack/react-query": "^5.90.21",
+    "@tiptap/core": "^3.29.2",
+    "@tiptap/extension-text-style": "^3.29.2",
+    "@tiptap/react": "^3.29.2",
+    "@tiptap/starter-kit": "^3.29.2",
     "axios": "1.13.6",
     "jwt-decode": "^4.0.0",
     "react": "^18.3.1",

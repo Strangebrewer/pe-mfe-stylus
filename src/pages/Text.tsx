@@ -1,4 +1,5 @@
 import { useNavigate, useParams } from 'react-router-dom';
+import Editor from '../components/editor';
 
 const TextPage = () => {
   const navigate = useNavigate();
@@ -15,6 +16,9 @@ const TextPage = () => {
       <p>Hi there, I'm Fake Text {getTextName()}</p>
       <br />
       <button onClick={() => navigate('/stylus')}>Home</button>
+      <div className="tiptap">
+        <Editor />
+      </div>
     </div>
   );
 };
