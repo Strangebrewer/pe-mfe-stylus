@@ -117,14 +117,36 @@
   }
 
   blockquote {
-    border-left: 3px solid var(--gray-3);
+    border-left: 3px solid var(--textMuted);
     margin: 1.5rem 0;
     padding-left: 1rem;
   }
 
   hr {
     border: none;
-    border-top: 1px solid var(--gray-2);
+    border-top: 1px solid var(--purple);
     margin: 2rem 0;
+  }
+}
+
+.formatting-buttons {
+  display: flex;
+  gap: 4px;
+
+  > button {
+    height: 32px;
+    width: 32px;
+    border: 1px solid white;
+    font-weight: 500;
+    opacity: 0.5;
+  }
+
+  & .is-active {
+    opacity: 1;
+  }
+}
+
+.clear-formatting-buttons {
+  > button {
   }
 }
